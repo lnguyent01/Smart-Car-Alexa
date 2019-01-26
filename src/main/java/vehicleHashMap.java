@@ -1,12 +1,12 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Iterator;
-import java.util.Set;
-
-
-//Actual Code
-/*
-/* This is how to declare HashMap */
+//
+//import java.util.HashMap;
+//import java.util.Map;
+//import java.util.Iterator;
+//import java.util.Set;
+//
+////Actual Code
+// //This is how to declare HashMap
+//
 //     HashMap<String, String> hmap = new HashMap<String, String>();
 //
 //     //gets list of vehicles under the client
@@ -20,9 +20,9 @@ import java.util.Set;
 //      String MakeAndModel = response.make + response.model;
 //      hmap.put(MakeAndModel, vehicleID);
 //    }
-
 //
-//        HttpResponse<JsonNode> jsonResponse = Unirest.post("http://httpbin.org/post")
+//
+//        HttpResponse<JsonNode> jsonResponse = Unirest.get("https://api.smartcar.com/v1.0/vehicles")
 //        .header("accept", "application/json")
 //        .queryString("apiKey", "123")
 //        .field("parameter", "value")
@@ -31,6 +31,6 @@ import java.util.Set;
 //
 //
 ////Hardcoded car
-//
-//HashMap<String, String> hmpa = newHashMap<String, String>();
+//        HashMap<String, String> hmpa = newHashMap<String, String>();
 //hmap.put("TeslaModelX", )
+//

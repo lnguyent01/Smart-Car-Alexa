@@ -25,7 +25,7 @@ public class getCarLocationHandler implements RequestHandler {
 
     @Override
     public Optional<Response> handle(HandlerInput input) {
-        String speechText = "Your car's coordinates are" + getCarCoordinates();
+        String speechText = "Your car's coordinates are" + getVehicleLocation();
        return input.getResponseBuilder()
                 .withSpeech(speechText)
                 .build();
